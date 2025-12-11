@@ -1,4 +1,4 @@
-import "../estilos/Envio.css"; 
+import "../estilos/envio.css"; 
 import React, { useState } from "react";
 
 export default function Envio_episodio() {{

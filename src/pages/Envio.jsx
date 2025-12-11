@@ -1,4 +1,4 @@
-import "../estilos/Envio.css"; 
+import "../estilos/envio.css"; 
 // 1) Importamos React y useState para manejar estado local en el componente
 import React, { useState } from "react";
 export default function Envio() {
