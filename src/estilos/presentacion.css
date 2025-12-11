@@ -1,0 +1,99 @@
+body {
+  background: #f5ecfc;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.contenedor {
+  max-width: 950px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(150, 70, 200, 0.18);
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.encabezado p:first-child {
+  font-size: 16px;
+  color: #6a3b87;
+}
+
+.encabezado p:last-child {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4a1d66;
+}
+
+.perfil-contenedor {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+
+  flex-wrap: nowrap; 
+}
+
+.foto-perfil {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #a85de0;
+  box-shadow: 0 3px 15px rgba(120, 40, 165, 0.25);
+}
+
+.info-perfil h2 {
+  margin: 0;
+  font-size: 26px;
+  color: #3b1650;
+  font-weight: bold;
+}
+
+.info-perfil p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #4d345a;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.seccion {
+  margin-top: 40px;
+}
+
+.seccion h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8a33c9;
+  margin-bottom: 12px;
+}
+
+.seccion ul {
+  list-style: none;
+  padding: 0;
+}
+
+.seccion ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e7d7f3;
+  font-size: 17px;
+  color: #4a2b5c;
+}
+
+.bloque h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a1d66;
+}
+
+.bloque p {
+  font-size: 17px;
+  color: #5a3a69;
+  margin-top: 6px;
+}

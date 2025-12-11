@@ -1,0 +1,39 @@
+.contenido {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(80, 40, 120, 0.15);
+}
+
+.contenido h2 {
+  text-align: center;
+  color: #6a2ca5;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contenido ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.contenido ul li {
+  background: #f7e9ff;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border-left: 5px solid #9b3ff7;
+  color: #4f2a63;
+  font-size: 16px;
+  box-shadow: 0 3px 10px rgba(120, 30, 160, 0.15);
+  transition: 0.25s ease;
+}
+
+.contenido ul li:hover {
+  background: #f0d9ff;
+  transform: translateX(5px);
+}

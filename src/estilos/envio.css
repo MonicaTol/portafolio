@@ -1,0 +1,123 @@
+.envio-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(150, 70, 200, 0.15);
+  border: 1px solid rgba(200, 150, 240, 0.25);
+}
+
+.envio-container h1,
+.envio-titulo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5e2b92;
+  margin-bottom: 10px;
+}
+
+.envio-container p,
+.envio-descripcion {
+  color: #7c5a9a;
+  font-size: 15px;
+}
+
+.envio-input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.envio-input {
+  padding: 10px;
+  width: 220px;
+  border: 2px solid #d9b8ff;
+  border-radius: 8px;
+  background: #faf2ff;
+  font-size: 15px;
+  color: #47236f;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.envio-input:focus {
+  border-color: #a56be9;
+  box-shadow: 0 0 8px rgba(165, 107, 233, 0.4);
+}
+
+.envio-btn {
+  padding: 10px 18px;
+  border: none;
+  background-color: #a56be9;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.25s ease;
+}
+
+.envio-btn:hover {
+  background-color: #8e4fdd;
+  box-shadow: 0 4px 10px rgba(150, 60, 200, 0.35);
+}
+
+.envio-error {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #d61f6d;
+}
+
+.envio-card {
+  margin-top: 25px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(190, 120, 240, 0.35);
+  box-shadow: 0 8px 24px rgba(150, 60, 200, 0.2);
+  transition: transform 0.25s ease;
+}
+
+.envio-card:hover {
+  transform: translateY(-4px);
+}
+
+.envio-card h2 {
+  color: #632d9c;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.envio-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 3px solid #d7b0ff;
+  box-shadow: 0 6px 16px rgba(140, 80, 200, 0.25);
+  margin-bottom: 12px;
+}
+
+.envio-details,
+.envio-lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.envio-details li,
+.envio-lista li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #715483;
+}
+
+.envio-details li strong,
+.envio-lista li strong {
+  color: #542a83;
+}
