@@ -3,7 +3,7 @@ import Header from "./components/header";
 import Presentacion from "./pages/Presentacion";
 import Experiencia from "./pages/Experiencia";
 import Contacto from "./pages/Contacto";
-import Envio from "./pages/envio";
+import Envio from "./pages/Envio";
 import Consumo from "./pages/Consumo";
 import Episodio from "./pages/Episodio";
 import Envio_episodio from "./pages/Envio_episodio";
